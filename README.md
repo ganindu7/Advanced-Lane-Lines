@@ -573,8 +573,8 @@ Going into the project my plan was to build a pipeline that looks like something
 
 | Source video | Result video (local file link) | Result video (web URL) | 
 |:--:|:--:|:--:|
-| [video 1 source](project_videos/project_video_1.mp4) | [video 1 result](project_videos/processed/latest/OUT_project_video_1.mp4)  | [youtube](https://youtu.be/9Ahh9WxfdPc) | 
-| [video 2 source](project_videos/project_video_2.mp4) | [video 2 result](project_videos/processed/latest/OUT_project_video_2.mp4)  | waiting for upload |
+| [video 1 source](project_videos/project_video_1.mp4) | [video 1 result](project_videos/processed/latest/OUT_project_video_1.mp4)  | [youtube link](https://youtu.be/9Ahh9WxfdPc) | 
+| [video 2 source](project_videos/project_video_2.mp4) | [video 2 result](project_videos/processed/latest/OUT_project_video_2.mp4)  | [youtube link](https://youtu.be/TO0gw3Gpnno) |
 | [Video 3 source](project_videos/project_video_3.mp4) | [video 3 result](project_videos/processed/latest/OUT_project_video_2.mp4)  | waiting for upload |
 
 
