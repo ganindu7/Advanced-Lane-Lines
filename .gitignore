@@ -1,0 +1,7 @@
+secret.txt
+camera_cal/failed
+camera_cal/out
+*__pycache__*
+*.pyc
+project_videos/processed*
+
