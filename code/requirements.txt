@@ -1,0 +1,6 @@
+numpy==1.18.4
+moviepy==1.0.3
+matplotlib==3.2.1
+opencv_python==4.2.0.34
+ipython==7.28.0
+PyQt5==5.15.4

@@ -39,7 +39,7 @@ The goals / steps of this project are the following:
 
 ##### Code packages 
 
-*	python: 3.6.9
+*	python version: 3.6.9
 *	pyenv with `pyenv-virtualenv`
 
 
@@ -57,6 +57,7 @@ The goals / steps of this project are the following:
     1.  Code is run from the "code" directory within the repo. 
     2.	there should be a "pickle_files" folder one level up relative to python code file (e.g. `../pickle_files`)
     3.  Where possible I have directly put code excerpts then line numbers so I can explain better in the text. (i.e using text/figures/equations).
+    4.  For pip requirements please refer to the [requirements.txt](code/requirements.txt) file
 
 
 
@@ -570,6 +571,9 @@ Going into the project my plan was to build a pipeline that looks like something
 **Result:**
 
 *Link to source:* **[`code/pipeline.py`](code/video_pipeline.py)**
+*Instructions to run source:* 1. `cd` to 'code' directory and open a terminal.
+                              2. run `python video_pipeline.py` (make sure the requirements at the top of this documents are made).
+
 
 | Source video | Result video (local file link) | Result video (web URL) | 
 |:--:|:--:|:--:|
@@ -613,6 +617,10 @@ based on the window parameters.
 The proximity fit works bases on a prior hypothesis. This is the same approach discussed in the course material. basically instead of discrete windows a narrow search area is predicted using the prior result. 
 
 Then based on the situation the handling function chooses either processing mode and they return metadata, lane lines and polygons to be drawn on the final composite image. The resulting video files are time-stamped and stored in the `project_videos/processed` directory. In the `project_videos/processed/latest` directory symbolic links to the latest files are created and updated. 
+
+The top level view of the organisation of the script.
+
+![text](examples/organisation.svg)
 
 
 **Debug information**
