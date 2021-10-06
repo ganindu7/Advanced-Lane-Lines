@@ -1,7 +1,5 @@
-from os import altsep
 import numpy as np
 import cv2
-from matplotlib.widgets import Slider, Button
 import matplotlib.pyplot as plt
 import pickle
 import glob
@@ -9,13 +7,9 @@ import re
 import os.path
 import time
 from matplotlib.lines import Line2D 
-from itertools import islice
 from collections import deque
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from matplotlib.figure import Figure 
 from moviepy.editor import VideoFileClip
-from IPython.display import HTML
-from numpy.core.fromnumeric import shape
 from statemachine import StateMachine
 from matplotlib.patches import Polygon
 

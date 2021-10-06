@@ -39,7 +39,7 @@ The goals / steps of this project are the following:
 
 ##### Code packages 
 
-*	python version: 3.6.9
+*	Tested python versions: 3.6.9 | 3.6.3
 *	pyenv with `pyenv-virtualenv`
 
 
