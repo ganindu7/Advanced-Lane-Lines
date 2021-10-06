@@ -39,7 +39,7 @@ The goals / steps of this project are the following:
 
 ##### Code packages 
 
-*	Tested python versions: 3.6.9 | 3.6.3
+*	Tested python versions: 3.6.9 | 3.6.3 [Only Tested the `video_pipeline.py` script (final video pipeline) in 3.6.3]
 *	pyenv with `pyenv-virtualenv`
 
 
